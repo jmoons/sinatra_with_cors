@@ -1,6 +1,6 @@
 require 'sinatra'
 
-# For return 200 for preflight requests
+# Return 200 for preflight requests
 options "*" do
   200
 end
